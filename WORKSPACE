@@ -1,3 +1,5 @@
+workspace(name = "rules_fastlane")
+
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 # Skylib is a dependency, remove if you already have it.
